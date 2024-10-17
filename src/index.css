@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #020617; /* Background color */
+    overflow-x: hidden; /* Remove/* Optional: Space on the right if needed */
+}
+
+@layer components {
+    .image {
+        -webkit-mask-position: center;
+        -webkit-mask-repeat: no-repeat;
+        height: 100%;/* Ensures it scales with its container */
+    }
+    
+    /* For the font-family */
+    .kalnia {
+        font-family: "Kalnia", serif;
+        
+        
+    }
+    
+    
+    /* Responsive text for desktop and mobile */
+    h1.kalnia {
+        font-size: 6vw; /* Viewport width for scaling */
+        line-height: 1.2;
+       
+    }
+    
+    /* Responsive text for paragraph */
+    p {
+        font-size: 1.2vw;
+    }
+    
+    
+    @media (max-width: 640px) {
+        h1.kalnia {
+            font-size: 10vw; 
+        }
+    
+        p {
+            font-size: 3vw; 
+        }
+        
+        .image {
+            height: auto; 
+            width: 80%; 
+        }
+    }
+    
+    .text-stroke {
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: white;
+        -webkit-text-stroke-width: 1px;
+        }
+    .perspective{
+        perspective: 2200px;
+       }
+    }
+   
