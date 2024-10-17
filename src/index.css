@@ -3,10 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
     background-color: #020617; /* Background color */
-    overflow-x: hidden; /* Remove/* Optional: Space on the right if needed */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 @layer components {
     .image {
