@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram,FaEnvelope } from "react-icons/fa";
 import logo from "../assets/logo.png";
 
 
@@ -16,6 +16,16 @@ const Navbar = () => {
 
       {/* Social Icons Section */}
       <div className="m-2 flex items-center justify-center gap-4 text-3xl">
+
+        <a
+          href="mailto:muhammedrashalm@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Email"
+          style={{ color: "white" }}
+        >
+          <FaEnvelope />
+        </a>
         <a className="bgp"
           href="https://www.linkedin.com/in/rashal5 "
           target="_blank"
