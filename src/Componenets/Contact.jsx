@@ -52,6 +52,7 @@ const Contact = () => {
   </a>
 </div>
 
+        <p className="my-4 text-[#F3F3F3]">muhammedrashalm@gmail.com</p>
         <p className="my-4 text-[#F3F3F3]">Malappuram,Kodinhi</p>
         <p className="my-4 text-[#F3F3F3]">+91 9061886227</p>
       </div>
