@@ -3,7 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 731d5f45052fd79d4d0c4c9e125842d7115e4e4f
 body, html {
     background-color: #020617; /* Background color */
     overflow-x: hidden;
@@ -11,6 +14,7 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 }
+
 
 @layer components {
     .image {
