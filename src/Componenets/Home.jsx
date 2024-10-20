@@ -73,8 +73,8 @@ export const Home = () => {
           },
         })
         .to(img.current, { transform: "translateZ(2200px)", opacity: 0.4 }, 0) 
-        .to(text1.current, { y: -800 }, 0.045, "<")
-        .to(text3.current, { y: -800 }, 0.06, "<") 
+        .to(text1.current, { y: -800 }, 0.05, "<")
+        .to(text3.current, { y: -800 }, 0.07, "<") 
         .to(text2.current, { y: 340 ,opacity:0}, 0.04, "<")
         .fromTo(container.current, 
           { yPercent: 100, scaleY: 1 }, 
@@ -129,7 +129,7 @@ export const Home = () => {
             <div className="flex flex-wrap lg:flex-row-reverse">
                 <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
-       {showFirstImage ? (
+      {showFirstImage ? (
         <motion.img 
           src={profilePic}
           alt="First" 
