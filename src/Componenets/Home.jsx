@@ -73,8 +73,8 @@ export const Home = () => {
           },
         })
         .to(img.current, { transform: "translateZ(2200px)", opacity: 0.4 }, 0) 
-        .to(text1.current, { y: -800 }, 0.05, "<")
-        .to(text3.current, { y: -800 }, 0.05, "<") 
+        .to(text1.current, { y: -800 }, 0.045, "<")
+        .to(text3.current, { y: -800 }, 0.06, "<") 
         .to(text2.current, { y: 340 ,opacity:0}, 0.04, "<")
         .fromTo(container.current, 
           { yPercent: 100, scaleY: 1 }, 
