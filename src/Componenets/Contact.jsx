@@ -39,11 +39,9 @@ const Contact = () => {
   >
     <FaInstagram />
   </a>
-<<<<<<< HEAD
+
   <a
-=======
-   <a
->>>>>>> 731d5f45052fd79d4d0c4c9e125842d7115e4e4f
+
     href="mailto:muhammedrashalm@gmail.com"
     target="_blank"
     rel="noopener noreferrer"
