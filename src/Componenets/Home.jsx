@@ -129,7 +129,7 @@ export const Home = () => {
             <div className="flex flex-wrap lg:flex-row-reverse">
                 <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
-      {showFirstImage ? (
+       {showFirstImage ? (
         <motion.img 
           src={profilePic}
           alt="First" 
