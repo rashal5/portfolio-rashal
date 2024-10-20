@@ -4,12 +4,27 @@
 @tailwind utilities;
 
 body, html {
-    background-color: #020617; /* Background color */
+    background: linear-gradient(270deg, #020617, #000724, #1e0037, #020617); /* Define the gradient colors */
+    background-size: 400% 400%; /* Increase the background size for smooth movement */
+    animation: gradientMove 10s ease infinite; /* Add animation with infinite loop */
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 
 @layer components {
