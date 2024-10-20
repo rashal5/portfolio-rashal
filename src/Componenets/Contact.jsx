@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram,FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -38,6 +38,15 @@ const Contact = () => {
     className="text-white hover:text-gray-400 transition-colors"
   >
     <FaInstagram />
+  </a>
+  <a
+    href="mailto:muhammedrashalm@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="text-white hover:text-gray-400 transition-colors"
+  >
+    <FaEnvelope />
   </a>
 </div>
 
