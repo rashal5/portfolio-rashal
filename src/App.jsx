@@ -102,7 +102,6 @@ function App() {
           </div>
         </div>
 
-        {/* Image grid section */}
         <div ref={container}  >
           
            
