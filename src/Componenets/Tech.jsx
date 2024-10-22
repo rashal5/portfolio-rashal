@@ -1,5 +1,5 @@
 
-import { SiVisualstudiocode, SiTailwindcss, SiBootstrap } from "react-icons/si";
+import { SiTailwindcss, SiBootstrap } from "react-icons/si";
 import {  motion } from "framer-motion";
 import figma from "../assets/projects/figma.png";
 import PS from "../assets/projects/ps.png";
@@ -29,7 +29,7 @@ const Tech = () => {
                 initial={{ opacity:0,y:-100}}
                 transition={{ duration:1.5}} 
       
-      className="my-20 text-center text-4xl text-[#bcd2e8]">Softwares, IDES, And Other Frameworks</motion.h2>
+      className="my-20 text-center text-4xl text-[#bcd2e8]">Softwares And Design Frameworks</motion.h2>
       <motion.div whileInView={{ opacity:1,y:0}} 
                 initial={{ opacity:0,y:-100}}
                 transition={{ duration:1.5}}
@@ -53,15 +53,7 @@ const Tech = () => {
             </span>
             </motion.div>
 
-            <motion.div initial="initial"
-              animate="animate"
-              variants={iconVarient(5)}
-              className="relative p-4 group">
-            <SiVisualstudiocode className="text-7xl  text-blue-500" />
-            <span className="absolute left-1/2 transform -translate-x-1/2 -translate-y-8 bg-gray-700 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-            Visualstudiocode
-            </span>
-            </motion.div>
+           
 
             <motion.div initial="initial"
             animate="animate"
