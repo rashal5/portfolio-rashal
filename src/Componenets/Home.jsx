@@ -7,6 +7,7 @@ import profilePic from "../assets/img3.png";
 import profilePic1 from "../assets/img2.png";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import resumePDF from "../assets/Muhammed Rashal M.pdf";
 
 
 const containerVariants = {
@@ -165,7 +166,7 @@ export const Home = () => {
                         </motion.p> 
                         <motion.a
                             variants={childVariants} 
-                            href="/Muhammed Rashal M.pdf"
+                            href={resumePDF}
                             target="_blank"
                             rel="noopener noreferrer"
                             download
