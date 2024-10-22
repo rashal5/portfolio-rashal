@@ -3,7 +3,7 @@ import project2 from "../assets/projects/on_chain.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-3.webp.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With one years of hands-on experience. I am creative and technically proficient in both front-end and back-end development, having built dynamic web apps with back-end frameworks like NodeJS and Django. I also have advanced knowledge of ReactJS,NextJS, GraphQL, and CSS frameworks like Tailwind and Bootstrap. Finally, I am proficient in both relational (MySQL) and NoSQL (MongoDB) databases.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. With one year of hands-on experience. I am creative and technically proficient in front-end and back-end development, having built dynamic web apps with back-end frameworks like NodeJS, ExpressJS, and Django. I also have advanced knowledge of ReactJS, NextJS, GraphQL, and CSS frameworks like Tailwind and Bootstrap. Finally, I am proficient in relational (MySQL) and NoSQL (MongoDB) databases.`;
 
 export const ABOUT_TEXT = `I have a degree in computer science and one year of experience. I am creative and technically 
 proficient in both front-end and back-end development, having built dynamic web apps with back-end 
