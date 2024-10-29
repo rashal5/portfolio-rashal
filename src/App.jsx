@@ -1,4 +1,3 @@
-import bg from "./assets/Visual.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef, useLayoutEffect,useState } from "react";
@@ -13,9 +12,18 @@ import Tech from "./Componenets/Tech";
 import Education from "./Componenets/Education";
 import About from "./Componenets/About";
 import  Home  from "./Componenets/Home";
+import ThemeToggleButton from "./Componenets/ThemeToggleButton";
+import { useTheme } from "./Componenets/ThemeContext";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
+   const { theme } = useTheme();
+
+  const appStyles = {
+   
+  };
+
+
   const navb = useRef(null);
 
 useLayoutEffect(() => {
@@ -49,6 +57,11 @@ useLayoutEffect(() => {
     <div ref={navb} className="fixed top-0 left-0  w-full z-50">
        <Navbar />
     </div>  
+   
+    <div style={appStyles} className="fixed bottom-4 left-4 z-10">
+      <ThemeToggleButton />
+    </div>
+ 
       <Home/>
       <Skills/>
       <Technologies/>
