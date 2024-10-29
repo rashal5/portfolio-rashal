@@ -3,15 +3,77 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --bg-color-1: #e6fff2;
+    --bg-color-2: #9aeefa;
+    --bg-color-3: #e0fffa;
+    --bg-color-4: #e6fff2;
+    --text-color: #5c6e80;
+
+    --bgp-color: #000000;
+    --bg2-color: #1d1d1d;
+    --p6-color: #414141;
+    --p7-color: #616161;
+}
+
+.dark-theme {
+    --bg-color-1: #020617;
+    --bg-color-2: #000724;
+    --bg-color-3: #1e0037;
+    --bg-color-4: #020617;
+    --text-color: #bcd2e8;
+
+    --bgp-color: #ffffff;
+    --bg2-color: #ffffff;
+    --p6-color: #ffffff;
+    --p7-color: #ffffff;
+}
+
 body, html {
-    background: linear-gradient(270deg, #020617, #000724, #1e0037, #020617); /* Define the gradient colors */
-    background-size: 400% 400%; /* Increase the background size for smooth movement */
-    animation: gradientMove 10s ease infinite; /* Add animation with infinite loop */
+    background: linear-gradient(270deg, var(--bg-color-1), var(--bg-color-2), var(--bg-color-3), var(--bg-color-4));
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: background 1s ease, color 1s ease;
 }
+
+.f5 {
+    color: var(--text-color);
+    transition: color 1s ease;
+}
+
+.bgp {
+    color: var(--bgp-color);
+}
+
+.bg2 {
+    color: var(--bg2-color);
+}
+
+.p6 {
+    color: var(--p6-color);
+}
+
+.p7 {
+    color: var(--p7-color);
+}
+
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  @keyframes fadeToDark {
+    0% { filter: brightness(1); }
+    100% { filter: brightness(0.7); }
+  }
+
+
+  
 
 @keyframes gradientMove {
     0% {
@@ -26,7 +88,6 @@ body, html {
 }
 
 
-
 @layer components {
     .image {
         -webkit-mask-position: center;
@@ -37,31 +98,36 @@ body, html {
     /* For the font-family */
     .kalnia {
         font-family: "Kalnia", serif;
+        color: black;
         
         
     }
     
-    
-    /* Responsive text for desktop and mobile */
+    h3{
+      color: black;
+    }
     h1.kalnia {
-        font-size: 6vw; /* Viewport width for scaling */
+        font-size: 6vw;
         line-height: 1.2;
        
     }
     
-    /* Responsive text for paragraph */
+   
     p {
         font-size: 1.2vw;
+        color: black;
     }
     
     
     @media (max-width: 640px) {
         h1.kalnia {
             font-size: 10vw; 
+            color: black;
         }
     
         p {
             font-size: 3vw; 
+            color: black;
         }
         
         .image {
@@ -72,7 +138,6 @@ body, html {
     
     .text-stroke {
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-color: white;
         -webkit-text-stroke-width: 1px;
         }
     .perspective{
@@ -80,3 +145,14 @@ body, html {
        }
     }
    
+    @media (max-width: 600px) {
+        button {
+          padding: 8px 15px;
+          font-size: 14px;
+        }
+      
+        button span {
+          font-size: 1.2em;
+        }
+      }
+      
