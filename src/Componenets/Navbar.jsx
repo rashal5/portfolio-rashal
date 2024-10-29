@@ -15,12 +15,11 @@ const Navbar = () => {
       
 
       <div className="m-2 flex items-center justify-center gap-4 text-3xl">
-        <a
+        <a className="bgp"
           href="mailto:muhammedrashalm@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Email"
-          style={{ color: "white" }}
         >
         <FaEnvelope />
         </a>
@@ -29,27 +28,24 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          style={{ color: "white" }}
         >
           <FaLinkedin />
         </a>
 
-        <a
+        <a className="bgp"
           href="https://github.com/rashal5"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          style={{ color: "white" }}
         >
           <FaGithub />
         </a>
 
-        <a
+        <a className="bgp"
           href="https://www.instagram.com/_rashal"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
-          style={{ color: "white" }}
         >
           <FaInstagram />
         </a>
