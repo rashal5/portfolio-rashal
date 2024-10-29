@@ -7,7 +7,7 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 100 }}  
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl text-[#F3F3F3]"
+        className="my-20 text-center text-4xl f5"
       >
         Experience
       </motion.h2>
@@ -19,7 +19,7 @@ const Experience = () => {
             transition={{ duration: 1 }}
             className="w-full lg:w-1/4"
           >
-            <p className="mb-2 text-sm text-stone-400">
+            <p className="mb-2 text-sm p7">
               03/2024 - Present
             </p>
           </motion.div>
@@ -29,11 +29,11 @@ const Experience = () => {
             transition={{ duration: 1 }}
             className="w-full max-w-xl lg:w-3/4"
           >
-            <h3 className="mb-2 font-semibold text-[#F3F3F3]">
+            <h3 className="mb-2 font-semibold p7">
               Software Developer -{" "}
-              <span className="text-sm text-stone-500">SMEC Labs</span>
+              <span className="text-sm p7">SMEC Labs</span>
             </h3>
-            <p className="mb-4 text-stone-400">
+            <p className="mb-4 p6">
               • Developed full-stack applications leveraging JavaScript, Node, React, Express <br />
               • Enhanced data management and user interface functionalities to improve application efficiency.<br />
               • Having knowledge in JavaScript data structures and algorithms means you are familiar with the <br />
