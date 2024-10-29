@@ -111,13 +111,13 @@ export const Home = () => {
         >
           <img ref={img} className="image relative z-10" src={bg} alt="" />
 
-          <div className="text-white absolute flex flex-col items-center justify-center">
+          <div className=" absolute flex flex-col items-center justify-center">
             <h1 className="kalnia text-[100px] flex items-center">
-              <span ref={text3} className="text-stroke">Hello, I'm</span>
-              <span ref={text1} className="relative z-20 ml-4">Rashal M</span>
+              <span ref={text3} className="text-stroke bg2">Hello, I'm</span>
+              <span ref={text1} className="relative z-20 ml-4 bg2">Rashal M</span>
             </h1>
 
-            <p ref={text2} className="opacity-50 w-48 text-[13px] text-center">
+            <p ref={text2} className="opacity-50 bg2 w-48 text-[13px] text-center">
             Creative coding for exceptional web and app experiences.
             </p>
           </div>
@@ -157,11 +157,11 @@ export const Home = () => {
                 <div className="w-full lg:w-1/2">
                     <motion.div
                      initial="hidden" animate="visible" variants={containerVariants} className="flex flex-col items-center lg:items-start mt-10">
-                        <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl text-[#bcd2e8]">Muhammed Rashal M</motion.h2>
+                        <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl f5">Muhammed Rashal M</motion.h2>
                         <motion.span variants={childVariants} className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
                             Full Stack Developer
                         </motion.span>
-                        <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-[#efefef]">
+                        <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter p6">
                             {HERO_CONTENT}
                         </motion.p> 
                         <motion.a
