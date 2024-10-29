@@ -29,7 +29,7 @@ const Tech = () => {
                 initial={{ opacity:0,y:-100}}
                 transition={{ duration:1.5}} 
       
-      className="my-20 text-center text-4xl text-[#bcd2e8]">Softwares And Design Frameworks</motion.h2>
+      className="my-20 text-center text-4xl f5">Softwares And Design Frameworks</motion.h2>
       <motion.div whileInView={{ opacity:1,y:0}} 
                 initial={{ opacity:0,y:-100}}
                 transition={{ duration:1.5}}
