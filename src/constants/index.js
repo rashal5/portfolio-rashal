@@ -41,15 +41,7 @@ export const PROJECTS = [
     description:
       "It comprises a comprehensive college website strategically designed to improve the learning experience through three key aspects: Add-On Course Registration, Study Materials, and Program Information.",
     technologies: ["HTML", "CSS", "React","JavaScript", "Bootstrap","Django","SQLite"],
-  },
-  {
-    title: "Portfolio Website",
-    image:  project1,
-    link: "",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Motion Frame", "Gsap", "JavaScript"],
-  },
+  }
 ];
 
 
