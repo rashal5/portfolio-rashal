@@ -10,20 +10,14 @@ const Education = () => {
       <div>
        
           <div className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div whileInView={{ opacity:1,x:0}} 
-                initial={{ opacity:0,x:-100}}
-                transition={{ duration:1}} className="w-full lg:w-1/4">
-              <p className="mb-2 text-sm p7"> 
-                2021-2024
-              </p>
-             </motion.div>
+            
             <motion.div whileInView={{ opacity:1,x:0}} 
                 initial={{ opacity:0,x:-100}}
                 transition={{ duration:1}} className="w-full max-w-xl lg:w-3/4">
               <h3 className="mb-2 font-semibold p7">
               BSc Computer Science - University of Calicut{" "}
                 <span className="text-sm text-stone-500">
-                (2024 Pass Out Batch, SGPA last Sem:7.3, CGPA:5.5)
+                ( SGPA last Sem:7.3, CGPA:5.5)
                 </span>
               </h3>
               <p className="mb-4 p6">
