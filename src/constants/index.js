@@ -3,17 +3,11 @@ import project2 from "../assets/projects/on_chain.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-3.webp.png";
 
-export const HERO_CONTENT = `I am a passionate full-stack developer with a knack for crafting robust and scalable web applications. With one year of hands-on experience. I am creative and technically proficient in front-end and back-end development, having built dynamic web apps with back-end frameworks like NodeJS, ExpressJS, and Django. I also have advanced knowledge of ReactJS, NextJS, GraphQL, and CSS frameworks like Tailwind and Bootstrap. Finally, I am proficient in relational (MySQL) and NoSQL (MongoDB) databases.`;
+export const HERO_CONTENT = `As a Backend Developer with one year of experience in building robust web applications, Proficient in Back-end services, Databases & Infrastructure including ExpressJS, NodeJS, Django, AWS, Docker, MySQL and MongoDB.Also expertise lies in integrating front-end applications with RESTful APIs and WebSockets, and I am highly skilled in both Python and JavaScript, with a solid grasp of algorithm optimization. 
 
-export const ABOUT_TEXT = `I have a degree in computer science and one year of experience. I am creative and technically 
-proficient in both front-end and back-end development, having built dynamic web apps with back-end 
-frameworks like Django and NodeJS. I also have advanced knowledge of ReactJS, GraphQL, and CSS 
-frameworks like Tailwind and Bootstrap. Finally, I am proficient in both relational (MySQL) and NoSQL 
-(MongoDB) databases. Possess a track record of effectively integrating front-end applications using RESTful 
-APIs and web sockets. Proficient in Python and JavaScript, with a deep understanding of Time and Space 
-complexity and algorithm optimization. In order to construct dynamic 3DWeb platforms for my work, I'm 
-excited to experiment with Threejs and learn how to adapt to new technologies. Furthermore, I am skilled 
-with top-tier creative tools, such as Figma ,Blender and Adobe  software.`;
+I have a good understanding of the basic programming concepts in C and C++, which enhances my problem-solving skills and code efficiency and have experience with front-end technology such as ReactJS and CSS frameworks Tailwind and Bootstrap. I am always eager to learn new technologies and experiment with various frameworks, enabling me to adapt and grow in fast-paced environments.`;
+
+export const ABOUT_TEXT = `I hope you're doing well. I have been working as a backend developer for the past 9 months, specializing in Node.js.`;
 
 
 
