@@ -3,11 +3,13 @@ import project2 from "../assets/projects/on_chain.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-3.webp.png";
 
-export const HERO_CONTENT = `As a Backend Developer with one year of experience in building robust web applications, Proficient in Back-end services, Databases & Infrastructure including ExpressJS, NodeJS, Django, AWS, Docker, MySQL and MongoDB.Also expertise lies in integrating front-end applications with RESTful APIs and WebSockets, and I am highly skilled in both Python and JavaScript, with a solid grasp of algorithm optimization. 
+export const HERO_CONTENT = `I am a Full Stack & Backend Developer with one year of experience building robust, scalable web applications, 3D interfaces, and data-driven systems. I work confidently with JavaScript and Python, with strong foundations in data structures, algorithms, and core programming concepts in C and C++. My expertise includes backend services, microservices, and infrastructure using Express.js, Node.js, Django, AWS, Docker, MySQL, and MongoDB, along with real-time integrations through RESTful APIs and WebSockets. As part of an R&D team, I develop high-performance 3D applications, digital-twin dashboards, and interactive UI components using React, Three.js, Tailwind, and Bootstrap. I also work with design and asset creation tools like Figma and Blender. Adaptable and curious, I continuously learn new technologies and frameworks to build efficient, innovative, production-ready solutions.`;
 
-I have a good understanding of the basic programming concepts in C and C++, which enhances my problem-solving skills and code efficiency and have experience with front-end technology such as ReactJS and CSS frameworks Tailwind and Bootstrap. I am always eager to learn new technologies and experiment with various frameworks, enabling me to adapt and grow in fast-paced environments.`;
+export const ABOUT_TEXT = `I am a Full Stack Developer with hands-on experience building scalable web applications, real-time 3D digital-twin systems, and data-driven dashboards. My expertise spans JavaScript, Python, and modern frameworks such as React, Node.js, Django, and Three.js. I have worked on both frontend and backend development, integrating REST APIs, WebSockets, microservices, and optimized data pipelines.
 
-export const ABOUT_TEXT = `I hope you're doing well. I have been working as a backend developer for the past 9 months, specializing in Node.js.`;
+During my internships and full-time roles at SMEC Labs and SMEC Automation Pvt Ltd, I contributed to the development of dynamic applications, high-performance 3D visualizations, ML-assisted failure prediction systems, and large-scale monitoring platforms. I am proficient in designing clean, user-friendly interfaces using Figma, and creating 3D assets using Blender.
+
+Strong foundations in algorithms, databases, cloud deployment (AWS EC2/S3), and Linux environments allow me to build reliable, production-ready systems. I am continuously learning, experimenting with new technologies, and committed to delivering efficient, innovative, full-stack solutions.`;
 
 
 
