@@ -65,10 +65,10 @@ useLayoutEffect(() => {
       <Home/>
       <Skills/>
       <Technologies/>
+       <Experience/>
       <Projects/>
       <Tech/>
       <Education/>
-      <Experience/>
       <About/>
       <Contact/>
     </div>
